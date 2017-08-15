@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 15, 2017, 12:46:40 PM
+    Author     : hp
+*/
+
+body{
+    background-color: lightgray;
+    
+    vertical-align: central;
+    margin-bottom: 100xp;
+    margin-right: 100xp;
+    margin-left: 100xp;
+    margin-right: 100xp;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+}
+form{
+    text-align: center;
+    
+    margin-bottom: 100xp;
+    margin-right: 100xp;
+    margin-left: 100xp;
+    margin-right: 100xp;
+}
+input[type="button"],input[type="submit"]{
+    
+    text-align: center;
+    
+    margin-bottom: 100xp;
+    margin-right: 100xp;
+    margin-left: 100xp;
+    margin-right: 100xp;
+    background-color: lightseagreen;
+}
+a{
+    vertical-align: central;
+     text-align: center;
+    
+    margin-bottom: 100xp;
+    margin-right: 100xp;
+    margin-left: 100xp;
+    margin-right: 100xp;
+    background-color: lightseagreen;
+}
