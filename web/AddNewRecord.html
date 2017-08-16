@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add new record</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="cssfinal.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <h1>ENROLL STUDENT</h1>
+        <a  href="HomePage.html" >
+            <input type="button" value="Home" name="home"/></a><br/><br/>
+         <form action="AddNewRecordServlet" method="POST">
+            STUDENT ID      :   <input type="text" name="std_id"  /><br/>
+            FIRST NAME      :   <input type="text" name="firstname"  /><br/>
+            LAST NAME       :   <input type="text" name="lastname"  /><br/>
+            EMAIL           :   <input type="text" name="email" /><br/>
+            GENDER          :   <input type="radio" name="gender" value="male" />MALE
+                                <input type="radio" name="gender" value="female" />FEMALE<br/>
+            BIRTHDAY        :   <input type=date name="birthday"  /><br/>
+            CONTACT NO      :   <input type="text" name="contact_no"  /><br/>
+            PROGRAM ID      :   <select name="program_id">
+                                        <option value="PMLT">PMLT</option>
+                                        <option value="CCBT">CCBT</option>
+                                        <option value="EPMT">EPMT</option>
+                                        <option value="EMBT">EMBT</option>
+                                        <option value="QMLT">QMLT</option>
+                                        <option value="LCAT">LCAT</option>
+                                        <option value="BMAT">BMAT</option>
+                                        <option value="DSMM">DSMM</option>
+                                        <option value="ACTG">ACTG</option>
+                                        <option value="CLAB">CLAB</option>
+                                        <option value="ELTC">ELTC</option>
+                                        <option value="ESTH">ESTH</option>
+                                        <option value="HCLT">HCLT</option>
+                                        <option value="ITIP">ITIP</option>
+                                        <option value="MADT">MADT</option>
+                                        <option value="OHST">OHST</option>
+                                        <option value="PHRM">PHRM</option>
+                                        <option value="SCMM">SCMM</option>
+                                        <option value="WNEM">WNEM</option>
+                                        <option value="WELD">WELD</option>
+                                </select><br/>
+            ADMISSION YEAR  :   <input type="text" name="admission_year" /><br/>
+            &emsp;&emsp;<input type="submit" value="ENROLL" name="enroll"  />
+        </form>
+    </body>
+</html>
